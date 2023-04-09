@@ -1,6 +1,4 @@
 import streamlit as st
-import sys
-sys.path.insert(0, '/Users/anand/PycharmProjects/DbmsProject/LoginPage/DBOperations')
 import DBUserOperations as DB
 from streamlit_star_rating import st_star_rating
 
