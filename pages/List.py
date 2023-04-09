@@ -20,7 +20,7 @@ def viewCompany(dbObj) :
                     for i in x :
                         st.text_input(label=i, value=x[i], key=str(count) + "_" + i)
                     rating = dbObj.getAverageCompanyRating(option, x['Name'])
-                    stars = st_star_rating(label="Rating", maxValue=5, defaultValue=rating, key="rating"+i,
+                    stars = st_star_rating(label="Rating", maxValue=5, defaultValue=rating, key="rating"+x[i],
                                             read_only=True, dark_theme=True)
                     st.markdown("""---""")
                     count += 1
@@ -39,7 +39,7 @@ def viewCompany(dbObj) :
                     for i in x :
                         st.text_input(label=i, value=x[i], key=str(count) + "_" + i)
                     rating = dbObj.getAverageCompanyRating(option, x['Address'])
-                    stars = st_star_rating(label="Rating", maxValue=5, defaultValue=rating, key="rating"+i,
+                    stars = st_star_rating(label="Rating", maxValue=5, defaultValue=rating, key="rating"+x[i],
                                             read_only=True, dark_theme=True)
                     st.markdown("""---""")
                     count += 1
@@ -63,7 +63,7 @@ def viewPlace(dbObj) :
                     for i in x :
                         st.text_input(label=i, value=x[i], key=str(count) + "_" + i)
                     rating = dbObj.getAveragePlaceRating(option, x['Name'])
-                    stars = st_star_rating(label="Rating", maxValue=5, defaultValue=rating, key="rating"+i,
+                    stars = st_star_rating(label="Rating", maxValue=5, defaultValue=rating, key="rating"+x[i],
                                             read_only=True, dark_theme=True)
                     st.markdown("""---""")
                     count += 1
@@ -82,7 +82,7 @@ def viewPlace(dbObj) :
                     for i in x:
                         st.text_input(label=i, value=x[i], key=str(count) + "_" + i)
                     rating = dbObj.getAveragePlaceRating(option, x['Address'])
-                    stars = st_star_rating(label="Rating", maxValue=5, defaultValue=rating, key="rating"+i,
+                    stars = st_star_rating(label="Rating", maxValue=5, defaultValue=rating, key="rating"+x[i],
                                             read_only=True, dark_theme=True)
                     st.markdown("""---""")
                     count += 1
