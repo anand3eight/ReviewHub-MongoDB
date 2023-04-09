@@ -1,7 +1,5 @@
 import streamlit as st
 import time
-import sys
-sys.path.insert(0, '/Users/anand/PycharmProjects/DbmsProject/LoginPage/DBOperations')
 import DBUserOperations as DB
 
 
