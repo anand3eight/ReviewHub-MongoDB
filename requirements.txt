@@ -1,2 +1,2 @@
 pymongo==4.3.3
-streamlit==1.21.0
+st-star-rating==0.0.3
