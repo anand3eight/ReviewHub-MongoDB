@@ -34,7 +34,7 @@ def signupWindow(dbObj) :
             user["Username"] = username
             user["Password"] = password
             dbObj.insertUser(user)
-            x.error("Signup Successful, Go to Login")
+            x.error("Signup Successful!")
             time.sleep(1)
             x.empty()
 
