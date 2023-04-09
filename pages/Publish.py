@@ -1,6 +1,6 @@
 import streamlit as st
 import re
-import DBUserOperations as DB
+from DBOperations import DBUserOperations as DB
 
 
 def emailCheck(email) :
