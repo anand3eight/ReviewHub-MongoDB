@@ -1,1 +1,2 @@
 pymongo==4.3.3
+st-star-rating==0.0.3
