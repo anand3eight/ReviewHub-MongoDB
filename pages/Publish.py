@@ -1,6 +1,4 @@
 import streamlit as st
-import sys
-sys.path.insert(0, '/Users/anand/PycharmProjects/DbmsProject/LoginPage/DBOperations')
 import re
 import DBUserOperations as DB
 
