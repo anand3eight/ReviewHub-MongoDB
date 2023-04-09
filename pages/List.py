@@ -1,5 +1,5 @@
 import streamlit as st
-import DBUserOperations as DB
+from DBOperations import DBUserOperations as DB
 from streamlit_star_rating import st_star_rating
 
 def viewCompany(dbObj) :
