@@ -1,6 +1,6 @@
 import streamlit as st
 import time
-import DBUserOperations as DB
+from DBOperations import DBUserOperations as DB
 
 
 def signupWindow(dbObj) :
