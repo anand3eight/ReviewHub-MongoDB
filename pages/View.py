@@ -44,7 +44,7 @@ def viewPlaceReviews(dbObj) :
 if __name__ == '__main__' :
     dbObj = DB.DBUser()
     x = st.empty()
-    st.title('View Reviews')
+    st.title('View')
     option = st.selectbox('Choose an Option', ('Company', 'Place'))
     if option == 'Company' :
         viewCompanyReviews(dbObj)
