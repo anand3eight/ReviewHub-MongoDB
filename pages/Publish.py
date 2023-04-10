@@ -90,7 +90,7 @@ def publishPlace(dbObj):
 if __name__ == '__main__' :
     dbObj = DB.DBUser()
     x = st.empty()
-    st.title('Publish a Review')
+    st.title('Publish')
     option = st.selectbox('Choose an Option', ('Company', 'Place'))
     if option == 'Company' :
         publishCompany(dbObj)
