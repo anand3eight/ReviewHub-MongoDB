@@ -2,8 +2,7 @@ from pymongo import MongoClient
 
 class DBUser :
     def __init__(self):
-        self.cluster = MongoClient(
-            "mongodb+srv://anand:1234@googlereviewscloneproje.gdul8xz.mongodb.net/?retryWrites=true&w=majority")
+        self.cluster = MongoClient("") #Place the API Key from the MongoDB Atlas Cluster Here
         self.db = self.cluster["ReviewCloneProject"]
         self.userAuthentication = self.db["UserAuthentication"]
         self.userDetails = self.db["UserDetails"]
@@ -210,6 +209,3 @@ class DBUser :
             return resultlist
         return -1
 
-if __name__ == '__main__' :
-    dbObj = DBUser()
-    print(dbObj.fetchPlaceReviews(''))
