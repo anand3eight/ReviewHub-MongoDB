@@ -1,7 +1,9 @@
 
 # ReviewHub
 
-DBMS Review Management Project : A Captivating Platform for Users to Share and Explore Reviews about Companies and Places.
+DBMS Review Management Project :  
+A Captivating Platform for Users to Share and Explore Reviews about Companies and Places.  
+This is the MongoDB Atlas Version of the Project
 
 ## Technologies Used
 
@@ -21,4 +23,7 @@ DBMS Review Management Project : A Captivating Platform for Users to Share and E
 
   3. Host the page in localhost using the command
   `streamlit run Home.py`
+
+Find the SQL version of the Project here :  
+https://github.com/anand3eight/ReviewHub-SQL.git
 
